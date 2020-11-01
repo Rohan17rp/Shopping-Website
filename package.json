@@ -1,0 +1,20 @@
+{
+  "name": "shopping_project",
+  "version": "1.0.0",
+  "description": "Shopping Cart - Practice Project",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "Tarun Luthra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^5.22.3"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}

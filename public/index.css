@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(200, 200, 0, 0.5);
+}
+
+#shopheading {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.userclass {
+    color: black;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+#lblCartCount {
+    font-size: 15px;
+    color: yellow;
+    padding: 0.5px;
+    vertical-align: top;
+    margin-left: -10px;
+}
+
+#usernametext {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#cart {
+    background-color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+
+#logout {
+    background-color: rgba(25, 125, 255, 0.95);
+    font-size: large;
+    font-weight: bold;
+}
+
+#userinfo, #logininfo {
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1200px) {
+    #usernametext {
+        font-size: 35px;
+    }
+
+    .product-price {
+        font-size: 13px;
+    }
+
+    .product-name {
+        font-size: 20px;
+    }
+
+    .viewDetails, .addToCartBtn {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 960px) {
+    #cart, #logout {
+        font-size: medium;
+    }
+
+    #usernametext {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    #cart, #logout {
+        font-size: small;
+    }
+
+    #usernametext {
+        font-size: 28px;
+    }
+}

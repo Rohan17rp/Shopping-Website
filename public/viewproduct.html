@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" rel="stylesheet">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <script src="viewproduct.js"></script>
+    <link href="viewproduct.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="modal" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sign in required</h5>
+                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>You must be logged in to add items to Cart</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 align="center" id="heading">Product Details</h2>
+<div class="row">
+    <div class="col m-5">
+        <a href="/">Go Back To Menu</a>
+        <h2 id="productName">Product Name</h2>
+        <h4 id="details">
+            Product Id =
+            <br>
+            Description =
+            <br>
+            Price =
+            <br>
+            Rating =
+            <br>
+            Stock =
+            <br>
+        </h4>
+        <button class="row btn btn-primary m-1 addToCartBtn">Add to Cart</button>
+    </div>
+    <div class="col-2">
+        <div class="container" id="userblock" style="display: none">
+            <div class="row" id="userinfo">
+                <a class="h3 col-12 m-2" href="/me.html" id="usernametext">Username here</a>
+            </div>
+            <br>
+            <div class="row">
+                <a class="btn col-md p-2 m-2" href="/cart.html" id="cart">View Cart</a>
+                <a class="btn col-md p-2 m-2" id="logout">Sign out</a>
+            </div>
+        </div>
+        <div class="container" id="loginblock">
+            <h5>
+                <a href="login.html">Login</a>
+                |
+                <a href="signup.html">Signup</a>
+            </h5>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

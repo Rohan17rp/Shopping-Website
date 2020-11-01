@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(200, 200, 0, 0.5);
+}
+
+#heading {
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#userblock {
+    justify-content: center;
+}
+
+#logout {
+    background-color: rgba(25, 142, 245, 0.95);
+    font-size: large;
+    font-weight: bold;
+}
+
+#cart {
+    background-color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+
+#content {
+    padding: 20px;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    #content {
+        font-size: 25px;
+    }
+
+    #heading {
+        font-size: 40px;
+    }
+}
