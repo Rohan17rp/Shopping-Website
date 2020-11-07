@@ -3,6 +3,11 @@ This is implementation of simple Database for a shopping website
 <br>
 
 ## About the project
+<ul>
+  <li> This Project Provides complete overview to design a database schema of online shops and shopping carts to manage the users, products, reviews, carts and orders.
+  <li> It is just like e-commerce websites where customers can place orders and admin can add products.
+</ul>
+
 Created by : <br>
 Rohan Patil 111803161<br>
 Dewashish Wankhade 111803159<br>
@@ -22,7 +27,8 @@ To run the project on your local machine, follow these instructions.
   <li>Node JS and Express for Backend
 </ul>
 
-We will create a sample database and a sample user to access this database
+#### Running the program
+Create a sample database and a sample user to access this database
 
 Open mysql in your system and run the following commands
 create database shopproject;
