@@ -48,3 +48,10 @@ You may add new products along with their description and dummy details by going
 Alternatively, you can use the dummy data provided in seed.js .
 To use it, go to <br>
 src/db and run file seed.js
+
+## Schema
+<img src="/Schema.png">
+
+## ER Diagram
+<img src="/ER_Diagram.png">
+
