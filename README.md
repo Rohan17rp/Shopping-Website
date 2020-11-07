@@ -1,23 +1,25 @@
 # Shopping Website Project
 This is implementation of simple Database for a shopping website
-
 <br>
+
 ## About the project
 Created by : <br>
 Rohan Patil 111803161<br>
 Dewashish Wankhade 111803159<br>
+
 ## Running the project
 To run the project on your local machine, follow these instructions.
-<br><br>
+<br>
+
 #### Pre-requisites
 1. Make sure you have  MySQL installed on your system
 2. NodeJS must be installed and running
 
 #### Tech Stack Used
 <ul>
-  <li>MySql Database</li>
-  <li>HTML/ CSS/ JS for Frontend</li>
-  <li>Node JS and Express for Backend</li>
+  <li>MySql Database
+  <li>HTML/ CSS/ JS for Frontend
+  <li>Node JS and Express for Backend
 </ul>
 
 We will create a sample database and a sample user to access this database
